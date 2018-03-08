@@ -1,0 +1,86 @@
+ .fullscreen{
+  z-index: 10000; 
+  
+  width: 100%; 
+  height: 100%;
+  position: absolute; 
+} 
+ .area{
+  z-index: 9999;
+  resize: none;
+  font-size: 30px;
+  border: none;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+ 
+}  
+
+textarea.ant-input.area {
+  box-shadow: none
+  }
+ .ant-layout{
+ height: 100%;
+ background: white;
+ padding: 30px 280px;
+} 
+.button{
+  margin-left: 0%;
+  /* z-index: 9999;  */
+  float: right;
+}
+.upload{
+ 
+ text-align: right
+ 
+}
+
+blockquote {
+  color: gray;
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em #eee solid;
+}
+
+blockquote {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 40px;
+  -webkit-margin-end: 40px;
+}
+ 
+/* pre {
+  border: 1px solid #ccc;
+}
+pre {
+  overflow: auto;
+}
+
+pre{
+  font-family: monospace,monospace;
+  font-size: 1em;
+} */
+
+/* pre {
+  border: 1px solid #ccc;
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin:  5px;
+} */
+
+/* .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 5px;
+  color: #333;
+  background: #f8f8f8;
+} */
+/* code {
+  font-family: monospace,monospace;
+  font-size: 1em;
+} */
+
+
